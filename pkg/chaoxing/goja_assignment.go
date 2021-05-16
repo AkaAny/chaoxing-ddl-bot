@@ -1,0 +1,5 @@
+package chaoxing
+
+func InspectTask() {
+
+}

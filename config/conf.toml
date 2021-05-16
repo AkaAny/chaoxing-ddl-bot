@@ -1,0 +1,7 @@
+[Service]
+    port=20023
+    [Service.CAS]
+        userName="[your cas username]"
+        password="[your cas password]"
+    [Service.DB]
+        dsn="root:123456@tcp(127.0.0.1:3306)/api_ddl_bot?charset=utf8mb4&parseTime=True&loc=Local"
